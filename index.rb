@@ -1,3 +1,7 @@
+require "httparty"
+require "JSON"
+
+
 quiz = {
     name: "",
     types: [],
@@ -8,3 +12,4 @@ quiz = {
 base_api = "https://pokeapi.co/api/v2"
 pokemon_endpoint = "/pokemon/"
 type_endpoint = "/type/"
+
